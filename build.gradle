@@ -36,6 +36,10 @@ dependencies {
     compile "io.micronaut:micronaut-inject"
     compile "io.micronaut:micronaut-validation"
     compile "io.micronaut:micronaut-runtime"
+
+    compile 'io.micronaut:micronaut-views'
+    runtime 'org.thymeleaf:thymeleaf:3.0.11.RELEASE'
+
     compileOnly "com.oracle.substratevm:svm"
     runtime "ch.qos.logback:logback-classic:1.2.3"
     testAnnotationProcessor "io.micronaut:micronaut-inject-java"
