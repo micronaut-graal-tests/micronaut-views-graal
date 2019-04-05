@@ -9,6 +9,6 @@ public class ViewsController {
 
     @Get("/")
     public ModelAndView<User> modelAndView() {
-        return new ModelAndView<>("home", new User("Iván", true));
+        return new ModelAndView<>("dir/home", new User("Iván", true));
     }
 }
