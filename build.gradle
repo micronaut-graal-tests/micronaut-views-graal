@@ -13,7 +13,7 @@ group "example.micronaut"
 repositories {
     mavenLocal()
     mavenCentral()
-    maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+//    maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
 }
 
 dependencyManagement {
@@ -37,7 +37,7 @@ dependencies {
     compile "io.micronaut:micronaut-validation"
     compile "io.micronaut:micronaut-runtime"
 
-    compile 'io.micronaut:micronaut-views'
+    compile 'io.micronaut:micronaut-views-velocity:1.2.0.BUILD-SNAPSHOT'
     compileOnly 'org.apache.velocity:velocity-engine-core:2.0'
     runtime 'org.apache.velocity:velocity-engine-core:2.0'
 
