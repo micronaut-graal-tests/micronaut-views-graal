@@ -37,7 +37,7 @@ dependencies {
     compile "io.micronaut:micronaut-validation"
     compile "io.micronaut:micronaut-runtime"
 
-    compile 'io.micronaut:micronaut-views'
+    compile 'io.micronaut:micronaut-views-freemarker:1.2.0.BUILD-SNAPSHOT'
     runtime 'org.freemarker:freemarker:2.3.28'
 
     compileOnly "com.oracle.substratevm:svm"
