@@ -37,7 +37,7 @@ dependencies {
     compile "io.micronaut:micronaut-validation"
     compile "io.micronaut:micronaut-runtime"
 
-    compile 'io.micronaut:micronaut-views'
+    compile 'io.micronaut:micronaut-views-thymeleaf:1.2.0.BUILD-SNAPSHOT'
     runtime 'org.thymeleaf:thymeleaf:3.0.11.RELEASE'
 
     compileOnly "com.oracle.substratevm:svm"
