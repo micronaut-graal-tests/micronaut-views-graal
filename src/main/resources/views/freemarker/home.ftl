@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Freemaker</title>
+    <title>Freemarker</title>
 </head>
 <body>
 <#if loggedIn??>
