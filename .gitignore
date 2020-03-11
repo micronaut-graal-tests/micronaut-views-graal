@@ -11,4 +11,4 @@ out/
 .project
 .settings
 .classpath
-views-graal
+views-graal*
