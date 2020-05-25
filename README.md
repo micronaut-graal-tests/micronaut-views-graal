@@ -1,7 +1,6 @@
 # Micronaut static resources / views app #
 
-:warning: **The master branch is not used anymore. Checkout branches for each specific view technology: `freemarker`, `handlebars`, 
-`thymeleaf` and `velocity` and micronaut versions.**
+:warning: **The master branch is not used anymore**. Checkout branches for each specific view technology: `freemarker`, `handlebars`, `thymeleaf` and `velocity` and micronaut versions.
 
 Test application for Micronaut and GraalVM that:
 
