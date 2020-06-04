@@ -33,7 +33,6 @@ dependencies {
     implementation "io.micronaut:micronaut-runtime"
     implementation "io.micronaut:micronaut-http-server-netty"
     implementation "io.micronaut.views:micronaut-views-velocity"
-    runtime 'org.apache.velocity:velocity-engine-core:2.2'
 
     compileOnly platform("io.micronaut:micronaut-bom:$micronautVersion")
     compileOnly "org.graalvm.nativeimage:svm"
