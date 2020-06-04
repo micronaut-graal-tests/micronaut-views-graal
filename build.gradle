@@ -36,6 +36,7 @@ dependencies {
     compileOnly 'org.apache.velocity:velocity-engine-core:2.0'
     runtime 'org.apache.velocity:velocity-engine-core:2.0'
 
+    compileOnly platform("io.micronaut:micronaut-bom:$micronautVersion")
     compileOnly "org.graalvm.nativeimage:svm"
 
     runtimeOnly "ch.qos.logback:logback-classic:1.2.3"
