@@ -34,8 +34,6 @@ dependencies {
     implementation "io.micronaut:micronaut-http-server-netty"
     implementation "io.micronaut.views:micronaut-views-thymeleaf"
 
-    runtime 'org.thymeleaf:thymeleaf:3.0.11.RELEASE'
-
     compileOnly platform("io.micronaut:micronaut-bom:$micronautVersion")
     compileOnly "org.graalvm.nativeimage:svm"
 
