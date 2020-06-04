@@ -35,6 +35,7 @@ dependencies {
     implementation "io.micronaut:micronaut-views-freemarker"
     runtime 'org.freemarker:freemarker:2.3.28'
 
+    compileOnly platform("io.micronaut:micronaut-bom:$micronautVersion")
     compileOnly "org.graalvm.nativeimage:svm"
 
     runtimeOnly "ch.qos.logback:logback-classic:1.2.3"
