@@ -1,2 +1,2 @@
 ./gradlew assemble
-native-image --no-server --no-fallback --class-path build/libs/views-graal-*-all.jar
+native-image --no-fallback --class-path build/libs/views-graal-*-all.jar
