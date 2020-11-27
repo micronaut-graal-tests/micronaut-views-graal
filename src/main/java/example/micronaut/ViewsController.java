@@ -9,14 +9,14 @@ import io.micronaut.views.View;
 @Controller("/views")
 public class ViewsController {
 
-    @Get("/handlebars")
-    public ModelAndView<User> handlebars() {
-        return new ModelAndView<>("handlebars/home", new User("Iván", true));
+    @Get("/pebble")
+    public ModelAndView<User> pebble() {
+        return new ModelAndView<>("pebble/home", new User("Iván", true));
     }
 
-    @View("/handlebars/home")
-    @Get("/handlebars-view")
-    public HttpResponse<User> handlebarsPojoView() {
+    @View("/pebble/home")
+    @Get("/pebble-view")
+    public HttpResponse<User> pebblePojoView() {
         return HttpResponse.ok(new User("Iván", true));
     }
 }
