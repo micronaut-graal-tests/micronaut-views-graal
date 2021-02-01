@@ -41,4 +41,5 @@ java {
 
 nativeImage {
     imageName('views-handlebars')
+    args = ["-H:+StaticExecutableWithDynamicLibC"]
 }
