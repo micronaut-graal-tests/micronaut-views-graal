@@ -41,4 +41,5 @@ java {
 
 nativeImage {
     imageName('views-velocity')
+    args = ["-H:+StaticExecutableWithDynamicLibC"]
 }
