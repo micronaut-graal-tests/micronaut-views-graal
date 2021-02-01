@@ -41,5 +41,5 @@ java {
 
 nativeImage {
     imageName('views-thymeleaf')
-    args = ['--report-unsupported-elements-at-runtime']
+    args = ['--report-unsupported-elements-at-runtime', '-H:+StaticExecutableWithDynamicLibC']
 }
