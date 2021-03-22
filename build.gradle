@@ -41,5 +41,4 @@ java {
 
 nativeImage {
     imageName('views-freemarker')
-    args = ["-H:+StaticExecutableWithDynamicLibC"]
 }
