@@ -41,5 +41,4 @@ java {
 
 nativeImage {
     imageName('views-pebble')
-    args = ["-H:+StaticExecutableWithDynamicLibC"]
 }
