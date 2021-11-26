@@ -1,4 +1,4 @@
 #!/bin/bash
 
-./gradlew nativeImage
-cp build/native-image/views-handlebars .
+./gradlew nativeCompile
+cp build/native/nativeCompile/views-handlebars .
