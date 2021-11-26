@@ -1,4 +1,4 @@
 #!/bin/bash
 
-./gradlew nativeImage
-cp build/native-image/views-freemarker .
+./gradlew nativeCompile
+cp build/native/nativeCompile/views-freemarker .
