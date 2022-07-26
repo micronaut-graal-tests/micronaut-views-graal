@@ -45,3 +45,5 @@ graalvmNative {
         }
     }
 }
+graalvmNative.toolchainDetection = false
+
