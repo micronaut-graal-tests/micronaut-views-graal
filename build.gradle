@@ -45,3 +45,4 @@ graalvmNative {
         }
     }
 }
+graalvmNative.toolchainDetection = false
